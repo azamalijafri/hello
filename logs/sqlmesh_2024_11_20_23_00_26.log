@@ -1,0 +1,131 @@
+2024-11-20 23:00:26,232 - MainThread - sqlmesh.core.renderer - WARNING - SELECT * cannot be expanded due to missing schema(s) for model(s): '"SQL_MODELS"'. Run `sqlmesh create_external_models` and / or make sure that the model '"SQLMESH_DEMO"."SQL_MODELS"."MESH_MACRO"' can be rendered at parse time. (renderer.py:511)
+2024-11-20 23:00:26,587 - MainThread - sqlmesh.core.config.scheduler - WARNING - The snowflake engine is not recommended for storing SQLMesh state in production deployments. Please see https://sqlmesh.readthedocs.io/en/stable/guides/configuration/#state-connection for a list of recommended engines and more information. (scheduler.py:94)
+2024-11-20 23:00:26,588 - MainThread - snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.12.3, Platform: Linux-6.8.0-48-generic-x86_64-with-glibc2.39 (connection.py:414)
+2024-11-20 23:00:26,588 - MainThread - snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain (connection.py:1197)
+2024-11-20 23:00:26,588 - MainThread - snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity. (connection.py:1278)
+2024-11-20 23:00:27,636 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 3 (cursor.py:1166)
+2024-11-20 23:00:27,841 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:28,046 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:28,250 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:28,455 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 3 (cursor.py:1166)
+2024-11-20 23:00:28,660 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:28,864 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:29,069 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:29,786 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:29,991 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:30,401 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 10 (cursor.py:1166)
+2024-11-20 23:00:30,605 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:31,323 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 9 (cursor.py:1166)
+2024-11-20 23:00:31,628 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:31,834 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 0 (cursor.py:1166)
+2024-11-20 23:00:31,961 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:32,142 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:32,346 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:32,551 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:32,755 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:32,960 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:33,132 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:36,628 - ThreadPoolExecutor-9_0 - sqlmesh.core.snapshot.evaluator - INFO - Listing data objects in schema SQLMESH_DEMO.sqlmesh__SQL_MODELS (evaluator.py:282)
+2024-11-20 23:00:36,629 - ThreadPoolExecutor-9_0 - snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.12.3, Platform: Linux-6.8.0-48-generic-x86_64-with-glibc2.39 (connection.py:414)
+2024-11-20 23:00:36,630 - ThreadPoolExecutor-9_0 - snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain (connection.py:1197)
+2024-11-20 23:00:36,630 - ThreadPoolExecutor-9_0 - snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity. (connection.py:1278)
+2024-11-20 23:00:37,469 - ThreadPoolExecutor-9_0 - sqlmesh.core.engine_adapter.base - INFO - Executing SQL: SELECT CURRENT_DATABASE() (base.py:2062)
+2024-11-20 23:00:37,670 - ThreadPoolExecutor-9_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:37,875 - ThreadPoolExecutor-9_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:37,876 - ThreadPoolExecutor-9_0 - sqlmesh.core.engine_adapter.base - INFO - Executing SQL: SELECT CURRENT_DATABASE() (base.py:2062)
+2024-11-20 23:00:38,080 - ThreadPoolExecutor-9_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:38,285 - ThreadPoolExecutor-9_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:38,289 - ThreadPoolExecutor-9_0 - sqlmesh.core.engine_adapter.base - INFO - Executing SQL: SELECT DISTINCT "TABLE_CATALOG" AS "catalog", "TABLE_NAME" AS "name", "TABLE_SCHEMA" AS "schema_name", CASE WHEN "TABLE_TYPE" = 'BASE TABLE' AND "IS_DYNAMIC" = 'YES' THEN 'MANAGED_TABLE' WHEN "TABLE_TYPE" = 'BASE TABLE' THEN 'TABLE' WHEN "TABLE_TYPE" = 'TEMPORARY TABLE' THEN 'TABLE' WHEN "TABLE_TYPE" = 'LOCAL TEMPORARY' THEN 'TABLE' WHEN "TABLE_TYPE" = 'EXTERNAL TABLE' THEN 'TABLE' WHEN "TABLE_TYPE" = 'EVENT TABLE' THEN 'TABLE' WHEN "TABLE_TYPE" = 'VIEW' THEN 'VIEW' WHEN "TABLE_TYPE" = 'MATERIALIZED VIEW' THEN 'MATERIALIZED_VIEW' ELSE "TABLE_TYPE" END AS "type", "CLUSTERING_KEY" AS "clustering_key" FROM "SQLMESH_DEMO"."INFORMATION_SCHEMA"."TABLES" WHERE "TABLE_SCHEMA" = 'sqlmesh__SQL_MODELS' AND "TABLE_NAME" IN ('SQL_MODELS__MESH_MACRO__3619411450') (base.py:2062)
+2024-11-20 23:00:38,899 - ThreadPoolExecutor-9_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 0 (cursor.py:1166)
+2024-11-20 23:00:39,083 - ThreadPoolExecutor-9_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:39,096 - MainThread - snowflake.connector.connection - INFO - closed (connection.py:789)
+2024-11-20 23:00:39,206 - MainThread - snowflake.connector.connection - INFO - No async queries seem to be running, deleting session (connection.py:795)
+2024-11-20 23:00:39,412 - MainThread - sqlmesh.core.snapshot.evaluator - INFO - Creating schema 'SQLMESH_DEMO.sqlmesh__SQL_MODELS' (evaluator.py:906)
+2024-11-20 23:00:39,413 - MainThread - snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.12.3, Platform: Linux-6.8.0-48-generic-x86_64-with-glibc2.39 (connection.py:414)
+2024-11-20 23:00:39,413 - MainThread - snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain (connection.py:1197)
+2024-11-20 23:00:39,413 - MainThread - snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity. (connection.py:1278)
+2024-11-20 23:00:40,232 - MainThread - sqlmesh.core.engine_adapter.base - INFO - Executing SQL: CREATE SCHEMA IF NOT EXISTS "SQLMESH_DEMO"."sqlmesh__SQL_MODELS" (base.py:2062)
+2024-11-20 23:00:40,435 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:40,641 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:40,641 - ThreadPoolExecutor-13_0 - snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.12.3, Platform: Linux-6.8.0-48-generic-x86_64-with-glibc2.39 (connection.py:414)
+2024-11-20 23:00:40,642 - ThreadPoolExecutor-13_0 - snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain (connection.py:1197)
+2024-11-20 23:00:40,642 - ThreadPoolExecutor-13_0 - snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity. (connection.py:1278)
+2024-11-20 23:00:41,563 - ThreadPoolExecutor-13_0 - sqlmesh.core.engine_adapter.base - INFO - Executing SQL: DESCRIBE TABLE "SQLMESH_DEMO"."sqlmesh__SQL_MODELS"."SQL_MODELS__MESH_MACRO__3619411450" (base.py:2062)
+2024-11-20 23:00:41,776 - ThreadPoolExecutor-13_0 - sqlmesh.core.snapshot.evaluator - INFO - Creating view 'SQLMESH_DEMO.sqlmesh__SQL_MODELS.SQL_MODELS__MESH_MACRO__3619411450' (evaluator.py:1617)
+2024-11-20 23:00:41,779 - ThreadPoolExecutor-13_0 - sqlmesh.core.renderer - WARNING - SELECT * cannot be expanded due to missing schema(s) for model(s): '"SQL_MODELS"'. Run `sqlmesh create_external_models` and / or make sure that the model '"SQLMESH_DEMO"."SQL_MODELS"."MESH_MACRO"' can be rendered at parse time. (renderer.py:511)
+2024-11-20 23:00:41,781 - ThreadPoolExecutor-13_0 - sqlmesh.core.engine_adapter.base - INFO - Executing SQL: CREATE VIEW "SQLMESH_DEMO"."sqlmesh__SQL_MODELS"."SQL_MODELS__MESH_MACRO__3619411450" AS SELECT * FROM "SQL_MODELS" AS "SQL_MODELS" WHERE "ID" = 1 + 2 (base.py:2062)
+2024-11-20 23:00:42,176 - ThreadPoolExecutor-13_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-20 23:00:42,177 - MainThread - snowflake.connector.connection - INFO - closed (connection.py:789)
+2024-11-20 23:00:42,381 - MainThread - snowflake.connector.connection - INFO - No async queries seem to be running, deleting session (connection.py:795)
+2024-11-20 23:00:42,600 - MainThread - sqlmesh.core.context - ERROR - Apply Failure: Traceback (most recent call last):
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/utils/concurrency.py", line 69, in _process_node
+    self.fn(node)
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/utils/concurrency.py", line 165, in <lambda>
+    lambda s_id: fn(snapshots_by_id[s_id]),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/core/snapshot/evaluator.py", line 316, in <lambda>
+    lambda s: self._create_snapshot(
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/core/snapshot/evaluator.py", line 724, in _create_snapshot
+    evaluation_strategy.create(
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/core/snapshot/evaluator.py", line 1626, in create
+    self.adapter.create_view(
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/core/engine_adapter/shared.py", line 302, in internal_wrapper
+    return func(*list_args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/core/engine_adapter/snowflake.py", line 178, in create_view
+    super().create_view(
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/core/engine_adapter/shared.py", line 302, in internal_wrapper
+    return func(*list_args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/core/engine_adapter/base.py", line 1036, in create_view
+    self.execute(
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/core/engine_adapter/base.py", line 2059, in execute
+    self._execute(sql, **kwargs)
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/core/engine_adapter/base.py", line 2065, in _execute
+    self.cursor.execute(sql, **kwargs)
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/snowflake/connector/cursor.py", line 1097, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/snowflake/connector/errors.py", line 339, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 002003 (42S02): 01b8807a-3201-53b6-000a-efc200020b8a: SQL compilation error:
+Object 'SQLMESH_DEMO."sqlmesh__SQL_MODELS".SQL_MODELS' does not exist or not authorized.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/core/context.py", line 1370, in apply
+    self._apply(plan, circuit_breaker)
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/core/context.py", line 1919, in _apply
+    self._scheduler.create_plan_evaluator(self).evaluate(
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/core/plan/evaluator.py", line 117, in evaluate
+    self._push(plan, snapshots, deployability_index_for_creation)
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/core/plan/evaluator.py", line 230, in _push
+    self.snapshot_evaluator.create(
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/core/snapshot/evaluator.py", line 314, in create
+    concurrent_apply_to_snapshots(
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/utils/concurrency.py", line 163, in concurrent_apply_to_snapshots
+    return concurrent_apply_to_dag(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/utils/concurrency.py", line 205, in concurrent_apply_to_dag
+    ).run()
+      ^^^^^
+  File "/home/azam/Desktop/sqlmesh/venv/lib/python3.12/site-packages/sqlmesh/utils/concurrency.py", line 64, in run
+    self._finished_future.result()
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+sqlmesh.utils.concurrency.NodeExecutionFailedError: Execution failed for node SnapshotId<"SQLMESH_DEMO"."SQL_MODELS"."MESH_MACRO": 1186276476>
+ (context.py:1378)
+2024-11-20 23:00:42,600 - MainThread - snowflake.connector.connection - INFO - closed (connection.py:789)
+2024-11-20 23:00:42,791 - MainThread - snowflake.connector.connection - INFO - No async queries seem to be running, deleting session (connection.py:795)
+2024-11-20 23:00:42,996 - MainThread - snowflake.connector.connection - INFO - closed (connection.py:789)
+2024-11-20 23:00:43,115 - MainThread - snowflake.connector.connection - INFO - No async queries seem to be running, deleting session (connection.py:795)
+2024-11-20 23:00:43,304 - MainThread - root - INFO - Shutting down the event dispatcher (dispatcher.py:159)

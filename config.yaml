@@ -1,0 +1,25 @@
+variables:
+  var_a: 1
+  var_b: 2
+
+gateways:
+  local:
+    connection:
+      type: duckdb
+      database: db.db
+  snowflake:
+    variables:
+      var_a: 3
+    connection:
+      type: snowflake
+      account: dktssnk-bb94975
+      user: SPARE
+      password: Azam@123
+      database: SQLMESH_DEMO
+      warehouse: COMPUTE_WH
+
+default_gateway: snowflake
+
+model_defaults:
+  dialect: snowflake
+  start: 2024-11-19
