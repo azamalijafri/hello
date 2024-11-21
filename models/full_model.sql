@@ -3,5 +3,5 @@ MODEL (
     kind FULL,
   );
 
-  SELECT invoice_id FROM sql_models.external_model
+  SELECT * FROM sql_models.external_model
     

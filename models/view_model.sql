@@ -1,6 +1,7 @@
 MODEL (
     name sql_models.view_model,
     kind VIEW,
+    audits (UNIQUE_VALUES(columns=(item_id)))
   );
 
-  SELECT invoice_id FROM sql_models.external_model
+  SELECT * FROM sql_models.seed_model

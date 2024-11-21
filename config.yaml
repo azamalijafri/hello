@@ -14,6 +14,7 @@ gateways:
       type: snowflake
       account: dktssnk-bb94975
       user: SPARE
+      # password: {{ env_var('SNOWFLAKE_PASSWORD') }}
       password: Azam@123
       database: SQLMESH_DEMO
       warehouse: COMPUTE_WH

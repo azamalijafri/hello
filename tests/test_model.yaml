@@ -1,0 +1,16 @@
+model_test:
+    model: sql_models.testing_model
+    inputs:
+      sql_models.seed_model:
+        rows:
+        - id: 1
+          item_id: 2
+        - id: 2
+          item_id: 1
+    outputs:
+      query:
+        rows:
+        - id: 1
+          item_id: 2
+        - id: 2
+          item_id: 1

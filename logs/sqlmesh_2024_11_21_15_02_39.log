@@ -1,0 +1,3 @@
+2024-11-21 15:02:39,507 - MainThread - sqlmesh.core.renderer - WARNING - Column '"INVOICE_ID"' could not be resolved for model '"SQLMESH_DEMO"."SQL_MODELS"."VIEW_MODEL"', the column may not exist or is ambiguous (renderer.py:536)
+2024-11-21 15:02:39,905 - MainThread - sqlmesh.core.config.connection - INFO - Creating new DuckDB adapter for in-memory database (connection.py:325)
+2024-11-21 15:02:39,929 - MainThread - root - INFO - Shutting down the event dispatcher (dispatcher.py:159)
