@@ -18,6 +18,21 @@ gateways:
       password: Azam@123
       database: SQLMESH_DEMO
       warehouse: COMPUTE_WH
+    test_connection:
+      type: snowflake
+      account: dktssnk-bb94975
+      user: SPARE
+      # password: {{ env_var('SNOWFLAKE_PASSWORD') }}
+      password: Azam@123
+      database: SQLMESH_DEMO
+      warehouse: COMPUTE_WH
+  
+  # databricks:
+  #   connection:
+  #     type: databricks
+  #     server_hostname: ""
+  #     http_path: ""
+  #     access_token: ""
 
 default_gateway: snowflake
 

@@ -4,4 +4,4 @@ MODEL (
     audits (UNIQUE_VALUES(columns=(item_id)))
   );
 
-  SELECT * FROM sql_models.seed_model
+  SELECT COUNT(*) AS COUNT FROM sql_models.seed_model GROUP BY ITEM_ID

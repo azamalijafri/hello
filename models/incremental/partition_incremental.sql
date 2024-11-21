@@ -6,7 +6,7 @@ MODEL (
 
 SELECT
     EVENT_DATE,
-    COUNT(ID) AS total_events,
+    COUNT(ID) AS total_events,  
     COUNT(DISTINCT ITEM_ID) AS unique_items
 FROM
     sql_models.seed_model
