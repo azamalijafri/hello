@@ -12,6 +12,6 @@ SELECT
 FROM
     sql_models.seed_model
 WHERE
-    EVENT_DATE BETWEEN @start_date AND @end_date
+    EVENT_DATE BETWEEN @start_ds AND @end_ds
 GROUP BY
     EVENT_DATE
