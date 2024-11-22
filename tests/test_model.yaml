@@ -1,7 +1,7 @@
 model_test:
-    model: sql_models.testing_model
+    model: demo.testing_model
     inputs:
-      sql_models.seed_model:
+      demo.seed_model:
         rows:
         - id: 1
           item_id: 2
@@ -10,7 +10,7 @@ model_test:
     outputs:
       query:
         rows:
-        - id: null
+        - id: 1
           item_id: 2
         - id: 2
           item_id: 1

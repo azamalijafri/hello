@@ -1,7 +1,7 @@
 test_TESTING_MODEL:
-  model: '"SQLMESH_DEMO"."SQL_MODELS"."TESTING_MODEL"'
+  model: '"AZAM_DB"."DEMO"."TESTING_MODEL"'
   inputs:
-    '"SQLMESH_DEMO"."SQL_MODELS"."SEED_MODEL"':
+    '"AZAM_DB"."DEMO"."SEED_MODEL"':
     - ID: 1
       ITEM_ID: 2
       EVENT_DATE: '2020-01-01'
@@ -30,17 +30,25 @@ test_TESTING_MODEL:
     query:
     - ID: 1
       ITEM_ID: 2
+      EVENT_DATE: '2020-01-01'
     - ID: 2
       ITEM_ID: 1
+      EVENT_DATE: '2020-01-01'
     - ID: 3
       ITEM_ID: 3
+      EVENT_DATE: '2020-01-03'
     - ID: 4
       ITEM_ID: 1
+      EVENT_DATE: '2020-01-04'
     - ID: 5
       ITEM_ID: 1
+      EVENT_DATE: '2020-01-05'
     - ID: 6
       ITEM_ID: 1
+      EVENT_DATE: '2020-01-06'
     - ID: 7
       ITEM_ID: 1
+      EVENT_DATE: '2020-01-07'
     - ID: 8
       ITEM_ID: 1
+      EVENT_DATE: '2020-01-07'

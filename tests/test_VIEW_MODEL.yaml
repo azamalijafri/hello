@@ -1,7 +1,7 @@
 test_VIEW_MODEL:
-  model: '"SQLMESH_DEMO"."SQL_MODELS"."VIEW_MODEL"'
+  model: '"AZAM_DB"."DEMO"."VIEW_MODEL"'
   inputs:
-    '"SQLMESH_DEMO"."SQL_MODELS"."SEED_MODEL"':
+    '"AZAM_DB"."DEMO"."SEED_MODEL"':
     - ID: 1
       ITEM_ID: 2
       EVENT_DATE: '2020-01-01'

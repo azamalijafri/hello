@@ -1,5 +1,5 @@
 MODEL (
-    name sql_models.external_model,
+    name demo.external_model,
     kind FULL
   );
 

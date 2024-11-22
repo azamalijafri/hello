@@ -1,5 +1,5 @@
 MODEL (
-    name sql_models.unique_key_incremental_model,
+    name demo.unique_key_incremental_model,
     kind INCREMENTAL_BY_UNIQUE_KEY (
         unique_key ID
     )
@@ -10,4 +10,4 @@ SELECT
     ITEM_ID,
     EVENT_DATE
 FROM
-    sql_models.seed_model
+    demo.seed_model
